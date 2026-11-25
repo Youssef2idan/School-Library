@@ -1,0 +1,128 @@
+{
+  "app": { "name": "School Library", "tagline": "Read • Earn • Unlock", "loading": "Loading..." },
+  "nav": { "home": "Home", "books": "Books", "stats": "Stats", "profile": "Profile" },
+  "home": {
+    "student": "Student",
+    "bannerTitle1": "Read Books...",
+    "bannerTitle2": "Earn Coins!",
+    "bannerText": "Read, collect coins, and unlock more books!",
+    "startReading": "Start Reading",
+    "library": "My Library",
+    "leaderboard": "Leaderboard",
+    "rewards": "My Rewards",
+    "settings": "Settings",
+    "popular": "Popular Books",
+    "topReaders": "Top Readers",
+    "seeAll": "See All",
+    "books": "Books"
+  },
+  "books": {
+    "title": "Books Library",
+    "search": "Search for books...",
+    "all": "All",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "read": "Read",
+    "empty": "No books found"
+  },
+  "locked": {
+    "title": "This Book is Locked!",
+    "text": "Read more books to earn coins and unlock it.",
+    "unlockFor": "Unlock for {{price}} coins",
+    "notEnough": "You need more coins to unlock this book.",
+    "keepReading": "Keep Reading",
+    "back": "Back"
+  },
+  "common": { "coins": "Coins", "back": "Back", "loading": "Loading..." },
+  "reader": {
+    "read": "Read",
+    "listen": "Listen",
+    "notFound": "Book not found",
+    "bookEmpty": "This book has no content yet",
+    "pdfLoading": "Loading PDF...",
+    "pdfError": "Could not open the PDF file",
+    "audioError": "Could not play the audio file",
+    "finished": "You finished this book!",
+    "bonus": "Milestone bonus",
+    "ok": "Great!",
+    "play": "Play",
+    "pause": "Pause",
+    "speed": "Speed",
+    "ttsHint": "Read aloud by your device's voice",
+    "listenUnavailable": "No audio available for this book",
+    "tracks": "Tracks",
+    "prev": "Previous page",
+    "next": "Next page"
+  },
+  "rewards": {
+    "title": "My Rewards",
+    "youHave": "You have",
+    "howToEarn": "How to Earn?",
+    "readBook": "Read a Book",
+    "completeQuiz": "Complete a Quiz",
+    "milestone": "Reach a Milestone (every 3 books)",
+    "plusCoins": "+{{amount}} Coins",
+    "useCoins1": "Use Your Coins",
+    "useCoins2": "to Unlock New Books!"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "topReaders": "Top Readers",
+    "thisMonth": "This Month",
+    "empty": "No readers yet"
+  },
+  "profile": {
+    "title": "My Profile",
+    "student": "Student",
+    "booksRead": "Books Read",
+    "totalCoins": "Coins",
+    "achievements": "Achievements",
+    "ach": {
+      "firstBook": "First Book",
+      "fiveBooks": "5 Books",
+      "streak7": "7-Day Streak",
+      "coins1000": "1000 Coins"
+    }
+  },
+  "stats": {
+    "title": "My Stats",
+    "overview": "Overview",
+    "books": "Books",
+    "coins": "Coins",
+    "booksRead": "Books Read",
+    "dayStreak": "Day Streak",
+    "totalDays": "Total Days",
+    "readingActivity": "Reading Activity",
+    "completed": "Completed",
+    "page": "Page {{page}}",
+    "notStarted": "Not started",
+    "noTransactions": "No transactions yet",
+    "noBooks": "No unlocked books yet",
+    "tx": {
+      "read_book": "Finished a book",
+      "complete_quiz": "Completed a quiz",
+      "milestone": "Milestone bonus",
+      "unlock_book": "Unlocked a book"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "notifications": "Notifications",
+    "theme": "Change Theme",
+    "themeDark": "Dark",
+    "soon": "Soon",
+    "language": "Language",
+    "about": "About App",
+    "help": "Help & Support",
+    "logout": "Log Out",
+    "aboutTitle": "School Library",
+    "aboutText": "Read or listen to your school library books, earn coins, and unlock more books.",
+    "helpTitle": "Help & Support",
+    "helpText": "Need help? Ask your school librarian or teacher.",
+    "logoutTitle": "Log out?",
+    "logoutText": "You will return to the start screen.",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "version": "Version 1.0.0"
+  }
+}

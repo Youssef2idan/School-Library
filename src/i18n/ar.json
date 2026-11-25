@@ -1,0 +1,128 @@
+{
+  "app": { "name": "مكتبة المدرسة", "tagline": "اقرأ • اكسب • افتح", "loading": "جاري التحميل..." },
+  "nav": { "home": "الرئيسية", "books": "الكتب", "stats": "إحصائياتي", "profile": "حسابي" },
+  "home": {
+    "student": "طالب",
+    "bannerTitle1": "اقرأ كتب...",
+    "bannerTitle2": "واكسب عملات!",
+    "bannerText": "اقرأ، اجمع العملات، وافتح كتب أكتر!",
+    "startReading": "ابدأ القراءة",
+    "library": "مكتبتي",
+    "leaderboard": "المتصدرون",
+    "rewards": "مكافآتي",
+    "settings": "الإعدادات",
+    "popular": "الكتب الشائعة",
+    "topReaders": "أفضل القراء",
+    "seeAll": "عرض الكل",
+    "books": "كتب"
+  },
+  "books": {
+    "title": "مكتبة الكتب",
+    "search": "ابحث عن كتاب...",
+    "all": "الكل",
+    "unlocked": "المفتوحة",
+    "locked": "المقفولة",
+    "read": "اقرأ",
+    "empty": "مفيش كتب مطابقة"
+  },
+  "locked": {
+    "title": "الكتاب ده مقفول!",
+    "text": "اقرأ كتب أكتر عشان تكسب عملات وتفتحه.",
+    "unlockFor": "افتحه بـ {{price}} عملة",
+    "notEnough": "محتاج عملات أكتر عشان تفتح الكتاب ده.",
+    "keepReading": "كمّل قراءة",
+    "back": "رجوع"
+  },
+  "common": { "coins": "عملة", "back": "رجوع", "loading": "جاري التحميل..." },
+  "reader": {
+    "read": "قراءة",
+    "listen": "استماع",
+    "notFound": "الكتاب غير موجود",
+    "bookEmpty": "الكتاب ده لسه ملوش محتوى",
+    "pdfLoading": "جاري تحميل الـ PDF...",
+    "pdfError": "تعذر فتح ملف الـ PDF",
+    "audioError": "تعذر تشغيل الملف الصوتي",
+    "finished": "خلصت الكتاب!",
+    "bonus": "مكافأة الإنجاز",
+    "ok": "تمام!",
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "speed": "السرعة",
+    "ttsHint": "القراءة بصوت الجهاز",
+    "listenUnavailable": "مفيش تسجيل صوتي للكتاب ده",
+    "tracks": "المقاطع",
+    "prev": "الصفحة السابقة",
+    "next": "الصفحة التالية"
+  },
+  "rewards": {
+    "title": "مكافآتي",
+    "youHave": "رصيدك",
+    "howToEarn": "إزاي تكسب؟",
+    "readBook": "اقرأ كتاب",
+    "completeQuiz": "حل اختبار",
+    "milestone": "حقق إنجاز (كل 3 كتب)",
+    "plusCoins": "+{{amount}} عملة",
+    "useCoins1": "استخدم عملاتك",
+    "useCoins2": "عشان تفتح كتب جديدة!"
+  },
+  "leaderboard": {
+    "title": "المتصدرون",
+    "topReaders": "أفضل القراء",
+    "thisMonth": "الشهر ده",
+    "empty": "مفيش قراء لسه"
+  },
+  "profile": {
+    "title": "حسابي",
+    "student": "طالب",
+    "booksRead": "كتب مقروءة",
+    "totalCoins": "العملات",
+    "achievements": "الإنجازات",
+    "ach": {
+      "firstBook": "أول كتاب",
+      "fiveBooks": "5 كتب",
+      "streak7": "7 أيام متتالية",
+      "coins1000": "1000 عملة"
+    }
+  },
+  "stats": {
+    "title": "إحصائياتي",
+    "overview": "نظرة عامة",
+    "books": "الكتب",
+    "coins": "العملات",
+    "booksRead": "كتب مقروءة",
+    "dayStreak": "أيام متتالية",
+    "totalDays": "إجمالي الأيام",
+    "readingActivity": "نشاط القراءة",
+    "completed": "مكتمل",
+    "page": "صفحة {{page}}",
+    "notStarted": "لم يبدأ",
+    "noTransactions": "مفيش معاملات لسه",
+    "noBooks": "مفيش كتب مفتوحة لسه",
+    "tx": {
+      "read_book": "خلّصت كتاب",
+      "complete_quiz": "حليت اختبار",
+      "milestone": "مكافأة إنجاز",
+      "unlock_book": "فتحت كتاب"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "notifications": "الإشعارات",
+    "theme": "تغيير المظهر",
+    "themeDark": "داكن",
+    "soon": "قريبًا",
+    "language": "اللغة",
+    "about": "عن التطبيق",
+    "help": "المساعدة والدعم",
+    "logout": "تسجيل الخروج",
+    "aboutTitle": "مكتبة المدرسة",
+    "aboutText": "اقرأ أو اسمع كتب مكتبة مدرستك، واكسب عملات، وافتح كتب أكتر.",
+    "helpTitle": "المساعدة والدعم",
+    "helpText": "محتاج مساعدة؟ اسأل أمين المكتبة أو المدرس.",
+    "logoutTitle": "تسجيل الخروج؟",
+    "logoutText": "هترجع لشاشة البداية.",
+    "cancel": "إلغاء",
+    "ok": "تأكيد",
+    "version": "الإصدار 1.0.0"
+  }
+}
