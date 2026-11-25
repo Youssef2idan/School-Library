@@ -21,13 +21,10 @@ export default function PdfView({ url, page, onLoaded }: Props) {
 
   useEffect(() => {
     let cancelled = false
-    const task = pdfjs.getDocument(url)
+    const task = pdfjs.getDocument({ url })
     task.promise
       .then((d) => {
-        if (cancelled) {
-          void d.destroy()
-          return
-        }
+        if (cancelled) return
         setDoc(d)
         onLoaded(d.numPages)
       })
@@ -64,8 +61,7 @@ export default function PdfView({ url, page, onLoaded }: Props) {
       const ctx = canvas.getContext('2d')
       if (!ctx) return
 
-      const params = { canvasContext: ctx, viewport, canvas }
-      renderTask = p.render(params as Parameters<typeof p.render>[0])
+      renderTask = p.render({ canvasContext: ctx, viewport, canvas })
       try {
         await renderTask.promise
       } catch {
